@@ -1,0 +1,33 @@
+*{
+    margin-top: 10px;
+}
+body {
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  margin-top: 5px;
+}
+input {
+  width: 360px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px 0px 0px 0px;
+  margin-bottom: 10px;
+}
+#submit {
+    background-color: white;
+  width: 128px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px 0px 0px 0px;
+}
+#pass{
+    color: red;
+}
+#err{
+color: red;
+}
+#submit:focus{
+  background-color: antiquewhite;
+}
